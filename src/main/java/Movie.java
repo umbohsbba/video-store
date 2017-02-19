@@ -12,6 +12,9 @@ public abstract class Movie {
 
 	public abstract BigDecimal calculateFees(int days);
 
+	
+	
+	
 	public String getTitle() {
 		return title;
 	}

@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+
 
 public class RentalStatement {
 
@@ -18,9 +17,10 @@ public class RentalStatement {
 		for (Rental rental : rentals) {
 			
 			
-			System.out.println("\nprice code " + rental.getPriceCode()
-			+ "\nTitle " + rental.getTitle()
-			+ "\n Rental fees are " + rental.calculateFees());
+			System.out.println("\nPrice code: " + rental.getPriceCode()
+			+ "\nTitle: " + rental.getTitle()
+			+ "\n days rented: " + rental.getDays()
+			+ "\n Your total cost will be " + rental.calculateFees());
 			
 		}
 

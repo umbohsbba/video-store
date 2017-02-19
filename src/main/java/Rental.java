@@ -14,6 +14,9 @@ public class Rental {
 		return fees;
 	}
 
+	public int getDays() {
+		return days;
+	}
 	public String getTitle() {
 		return rented.getTitle();
 	}
